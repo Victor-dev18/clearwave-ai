@@ -23,7 +23,7 @@ export default function Home() {
 
     try {
       // Send the file to our Python FastAPI server!
-      const response = await fetch("http://127.0.0.1:8000/api/clean-audio", {
+      const response = await fetch("https://clearwave-ai.onrender.com/api/clean-audio", {
         method: "POST",
         body: formData,
       });
