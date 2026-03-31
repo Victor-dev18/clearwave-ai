@@ -1,0 +1,23 @@
+# Python / Backend
+__pycache__/
+venv/
+env/
+.env
+*.pyc
+
+# Temp Audio Files
+temp_*.wav
+clean_*.wav
+noisy_audio.wav
+test_audio.wav
+ai_cleaned_audio.wav
+dsp_filtered_audio.wav
+
+# Next.js / Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+.DS_Store
+
+# Note: We are NOT ignoring .pth because the server needs the model weights to run!
